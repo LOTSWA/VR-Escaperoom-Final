@@ -1941,6 +1941,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Origin (XR Rig)
       objectReference: {fileID: 0}
+    - target: {fileID: 6897058048621796286, guid: 56e232d57263c924e8a5cbd419ec72bb, type: 3}
+      propertyPath: m_PositionAction.m_Action.m_SingletonActionBindings.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6897058048621796286, guid: 56e232d57263c924e8a5cbd419ec72bb, type: 3}
+      propertyPath: m_PositionAction.m_Action.m_SingletonActionBindings.Array.data[0].m_Id
+      value: b9fd90f9-9d25-4051-989b-0a0be5726b52
+      objectReference: {fileID: 0}
+    - target: {fileID: 6897058048621796286, guid: 56e232d57263c924e8a5cbd419ec72bb, type: 3}
+      propertyPath: m_PositionAction.m_Action.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Position
+      objectReference: {fileID: 0}
     - target: {fileID: 7371575304396303412, guid: 56e232d57263c924e8a5cbd419ec72bb, type: 3}
       propertyPath: m_MoveSpeed
       value: 2
