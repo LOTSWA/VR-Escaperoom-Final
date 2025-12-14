@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 156512756327896269}
   - component: {fileID: -3993242879124082033}
   - component: {fileID: -8156935157836035587}
+  - component: {fileID: 4067392354125187387}
   m_Layer: 0
   m_Name: Projectile_Dart
   m_TagString: Dart
@@ -147,3 +148,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeTime: 10
+--- !u!114 &4067392354125187387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9093831001618171185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7904f6a2dba4ea64eb258abcbe1674b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
