@@ -7081,7 +7081,19 @@ MonoBehaviour:
       m_Calls: []
   m_Activated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1646359354}
+        m_TargetAssemblyTypeName: LaunchProjectile, Assembly-CSharp
+        m_MethodName: Fire
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
@@ -7401,6 +7413,10 @@ PrefabInstance:
       propertyPath: m_System
       value: 
       objectReference: {fileID: 946752443}
+    - target: {fileID: 2132888547897962524, guid: b0f103e7f2171c3489816f38a174d061, type: 3}
+      propertyPath: m_HideControllerOnSelect
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2710734374107554913, guid: b0f103e7f2171c3489816f38a174d061, type: 3}
       propertyPath: m_System
       value: 
