@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Flame
+  - Throwable
+  - ThrowingTarget
+  - Dart
+  - Yellow
+  - Green
+  - Blue
+  - Red
   layers:
   - Default
   - TransparentFX
