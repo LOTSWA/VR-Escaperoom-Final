@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShootingGOblins : MonoBehaviour
+public class ShootingGoblins : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
