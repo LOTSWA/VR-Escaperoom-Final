@@ -12,6 +12,9 @@ TagManager:
   - Green
   - Blue
   - Red
+  - RedKey
+  - BlackKey
+  - GreenKey
   layers:
   - Default
   - TransparentFX
