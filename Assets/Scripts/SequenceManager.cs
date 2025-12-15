@@ -10,6 +10,11 @@ public class SequenceManager : MonoBehaviour
 
     private int currentSequenceIndex = 0;
 
+    public Transform spawnpoint;
+
+    public GameObject RedKey;
+    public GameObject GreenKey;
+    public GameObject BlackKey;
     void Awake()
     {
         if (Instance != null && Instance != this)
@@ -54,5 +59,9 @@ public class SequenceManager : MonoBehaviour
     private void HandlePuzzleWin()
     {
         // Add code to open a door, spawn an item, or move to the next level
+        Instantiate(RedKey,spawnpoint.position, spawnpoint.rotation);
+        Instantiate(GreenKey,spawnpoint.position, spawnpoint.rotation);
+        Instantiate(BlackKey,spawnpoint.position, spawnpoint.rotation);
+
     }
 }

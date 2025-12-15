@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 public class KeySequenceManager : MonoBehaviour
 {
+
+    public GameObject WinScreen;
     // A dictionary to track which required keys are currently inserted (false = missing, true = inserted)
     private Dictionary<string, bool> keyStatus = new Dictionary<string, bool>()
     {
@@ -57,6 +59,8 @@ public class KeySequenceManager : MonoBehaviour
 
     private void UnlockDoor()
     {
+
+        WinScreen.SetActive(true);
         // Add code to open the door, activate a platform, etc.
         // Example: GameObject.Find("Door").SetActive(false);
     }
