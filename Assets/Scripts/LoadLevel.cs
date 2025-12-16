@@ -5,7 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class LoadLevel : MonoBehaviour
 {
-  public void LoadNextLevel()
+  public void LoadLevel1()
+    {
+        SceneManager.LoadScene("Area 1");
+    }
+    public void LoadLevel2()
     {
         SceneManager.LoadScene("Area 2");
     }

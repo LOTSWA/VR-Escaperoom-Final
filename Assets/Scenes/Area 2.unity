@@ -1216,6 +1216,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel
       objectReference: {fileID: 0}
+    - target: {fileID: 589572867028395327, guid: dd4e9aade3ece1746b7ccd5e11c27d9f, type: 3}
+      propertyPath: m_TagString
+      value: Barrel
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -5326,6 +5330,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2335962021303844370, guid: d0346f96f5804d58bb81d1ec9ffe170e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 502891734}
+    - targetCorrespondingSourceObject: {fileID: 2335962021303844370, guid: d0346f96f5804d58bb81d1ec9ffe170e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 502891742}
   m_SourcePrefab: {fileID: 100100000, guid: d0346f96f5804d58bb81d1ec9ffe170e, type: 3}
 --- !u!1 &502891732 stripped
 GameObject:
@@ -5420,6 +5427,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3107714332737021096, guid: d0346f96f5804d58bb81d1ec9ffe170e, type: 3}
   m_PrefabInstance: {fileID: 502891731}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &502891742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502891732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d985e1e076af0b40a552e64f2a001af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctKeyTag: Cannon
 --- !u!4 &509929823 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2158357706603897631, guid: 9da6f691888b85540ae49f589a0afca9, type: 3}
@@ -9799,8 +9819,9 @@ GameObject:
   - component: {fileID: 1066621533}
   - component: {fileID: 1066621532}
   - component: {fileID: 1066621531}
+  - component: {fileID: 1066621537}
   m_Layer: 0
-  m_Name: place plane 2
+  m_Name: place plane core
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9976,6 +9997,19 @@ Transform:
   - {fileID: 2005122047}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1066621537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066621530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d985e1e076af0b40a552e64f2a001af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctKeyTag: Core
 --- !u!1 &1071752669
 GameObject:
   m_ObjectHideFlags: 0
@@ -11653,6 +11687,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cannon
       objectReference: {fileID: 0}
+    - target: {fileID: 5436973871010308565, guid: 072f9e9fc89b4d75a29c85bf23685c89, type: 3}
+      propertyPath: m_TagString
+      value: Cannon
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -12672,6 +12710,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3704029372282980262, guid: 5fad9344b3114e36bb90d78e796756c6, type: 3}
       propertyPath: m_Name
+      value: Core
+      objectReference: {fileID: 0}
+    - target: {fileID: 3704029372282980262, guid: 5fad9344b3114e36bb90d78e796756c6, type: 3}
+      propertyPath: m_TagString
       value: Core
       objectReference: {fileID: 0}
     - target: {fileID: 4047763797257624860, guid: 5fad9344b3114e36bb90d78e796756c6, type: 3}
@@ -16225,8 +16267,9 @@ GameObject:
   - component: {fileID: 1753412811}
   - component: {fileID: 1753412810}
   - component: {fileID: 1753412809}
+  - component: {fileID: 1753412815}
   m_Layer: 0
-  m_Name: place plane 1
+  m_Name: place plane barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16356,7 +16399,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 745bd829de7127e41be93ee5117f805a, type: 2}
+  - {fileID: 2100000, guid: d34996c9000136c47a3799edae3a0228, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16402,6 +16445,19 @@ Transform:
   - {fileID: 216798258}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1753412815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753412808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d985e1e076af0b40a552e64f2a001af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctKeyTag: Barrel
 --- !u!4 &1754065350 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5724886013932824958, guid: b0fbdb49b998fc743bea0eddec140218, type: 3}
