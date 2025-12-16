@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class CannonGravityActivator : MonoBehaviour
 {
-    [Tooltip("The tag of the projectile that hits this target (e.g., ThrowTag)")]
-    public string requiredThrowerTag = "ThrowTag";
+    [Tooltip("The tag of the projectile that hits this target (e.g., Throwable)")]
+    public string requiredThrowerTag = "Throwable";
 
     public Rigidbody cannonRigidbody;
     private bool gravityActivated = false;
