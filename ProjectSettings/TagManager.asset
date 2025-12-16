@@ -15,6 +15,9 @@ TagManager:
   - RedKey
   - BlackKey
   - GreenKey
+  - Barrel
+  - Cannon
+  - Core
   layers:
   - Default
   - TransparentFX
