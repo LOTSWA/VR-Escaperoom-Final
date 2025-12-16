@@ -736,7 +736,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 256096125}
         m_TargetAssemblyTypeName: LoadLevel, Assembly-CSharp
-        m_MethodName: LoadNextLevel
+        m_MethodName: LoadLevel2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
